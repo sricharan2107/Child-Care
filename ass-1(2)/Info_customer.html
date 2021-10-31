@@ -1,0 +1,57 @@
+<html>
+    <head><title>Customer Details</title></head>
+    <body bgcolor="aqua" align="center">
+        <h1>Customer Details</h1>
+        <form>
+        <table border="1px" align="center" bgcolor="Yellow">
+            <div>
+                <tr align="center">
+                    <td colspan="2">Please Fill your Details</td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                <td><label for="yourname">Name</label></td>
+                <td><input type="text" name="yourname" required></td>
+                </tr>
+            </div>
+            
+            <div>
+                <tr>
+                    <td><label for="address">Address :</label></td>
+                    <td><textarea name="address" required></textarea></td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td><label for="gender">Gender :</label></td>
+                    <td><label>Male</label><input type="radio" name="gender" value="choice-1">
+                        <label>Female</label><input type="radio" name="gender" value="choice-2">
+                        <label>Others</label><input type="radio" name="gender" value="choice-3">
+                    </td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td><label for="languages">Languages Known :</label></td>
+                    <td><input type="text" name="languages"></td>
+                </tr>
+            </div>
+            
+
+            <div>
+                <tr>
+                <td colspan="2"><label for="verify">All the above mentioned information is correct.  </label>
+                        <input type="checkbox"></td>
+                
+                <tr align="center" >
+                <td bgcolor="green"><button>Submit</button></td>
+                <td bgcolor="red"><input type="reset"></td>
+                </tr>
+        </table>
+    </form>
+    </body>
+</html>
